@@ -1,0 +1,24 @@
+.header {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  height: 100px;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.header .header__logo .logo__image {
+  height: 80px;
+}
+
+.header .header__menu .menu__item .menu__link, .header .menu .menu__item .menu__link {
+  color: red;
+}
+
+.menu__link {
+  color: red;
+}
